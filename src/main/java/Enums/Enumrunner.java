@@ -1,6 +1,8 @@
 package Enums;
 
 import java.util.Scanner;
+import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class Enumrunner {
     public static void main(String[] args) {
@@ -24,6 +26,7 @@ public class Enumrunner {
                 // Döngü başa döner
             }
         }
+        
 
         scanner.close();
     }
